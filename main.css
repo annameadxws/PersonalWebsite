@@ -1,0 +1,130 @@
+html {}
+body {
+  font-family: "Lucida Calligraphy", Times, serif; 
+  color: #000000;
+    background-image: url("https://scontent-ort2-2.xx.fbcdn.net/v/t1.0-9/24300909_403074340126013_1639379217677023997_n.jpg?oh=4497e3b8339f8fc896117789ec912043&oe=5A8B4A77") ;
+    background-size: 100% 100%;
+  font-size: 40px;
+background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+ul {
+   border: 1px solid #e7e7e7;
+    background-color: #faceff;
+ font-size: 30px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #707070;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: #faceff;
+
+}
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+	 width: 180px;
+	font-size: 20px;
+	color: #ffffff;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+img{
+  display: left;
+    margin: auto;
+    width: 15%;
+}
+p{
+	   font-family: "Lucida Calligraphy", Times, serif;
+ font-size: 30px;
+ text-align: center;
+ color: #000000;
+    background-color: #faceff;
+    width: 1050px;
+    padding: 50px;
+    margin: 45px;
+}
+h1{
+text-align:center;
+font-size: 50px;}
+
+h2{
+	text-align: center;text-shadow: 2px 2px #ffffff;
+	font-family: "Gabriola", Times, serif;
+}
+p img {
+  display: center;
+    margin: center;
+    width: 40%;
+
+}
+a:link {
+    color: black; 
+    background-color: transparent; 
+    text-decoration: none;
+}
+
+a:visited {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+
+}
+#customers {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#customers td, #customers th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#customers tr:nth-child(even){background-color: #f2f2f2;}
+
+#customers tr:hover {background-color: #ddd;}
+
+#customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #faceff;
+    color: black;
+}#customers{
+background-color: #FFF;}

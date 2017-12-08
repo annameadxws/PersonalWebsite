@@ -1,0 +1,108 @@
+html {}
+body {
+  font-family: "Lucida Calligraphy", Times, serif; 
+  color: #000000;
+    background-image: url("https://scontent-ort2-2.xx.fbcdn.net/v/t1.0-9/24774919_403075203459260_2460715999745912636_n.jpg?oh=9ae96af02176385e408b5a49c369895b&oe=5AD2BD26") ;
+    background-size: 100% 100%;
+  font-size: 40px;
+background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+ul {
+   border: 1px solid #e7e7e7;
+    background-color: #faceff;
+ font-size: 30px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #707070;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: #faceff;
+
+}
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+	font-size: 20px;
+	font-family:  "Lucida Calligraphy", Times, serif;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+img{
+  display: left;
+    margin: auto;
+    width: 15%;
+}
+p{
+	 font-family: "Lucida Calligraphy", Times, serif;
+ font-size: 30px;
+ text-align: center;
+ color: #000000;
+    background-color:#faceff;
+    width: 1050px;
+    padding: 50px;
+    margin: 45px;
+}
+h1{
+text-align:center;
+font-size: 50px;}
+
+h2{
+	text-align: center;
+	font-family: "Gabriola", Times, serif;
+}
+
+p img {
+  display: center;
+    margin: center;
+    width: 40%;
+
+}
+a:link {
+    color: black; 
+    background-color: transparent; 
+    text-decoration: none;
+}
+
+a:visited {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+
+}

@@ -1,0 +1,110 @@
+html {}
+body {
+  font-family:"Lucida Calligraphy", Times, serif; ; 
+  color: #000000;
+    background-image: url("https://scontent-ort2-2.xx.fbcdn.net/v/t1.0-9/24862331_403077623459018_5583637552068337776_n.jpg?oh=79d00e2a54e2e5e50a24e72e83044abf&oe=5AC36A4A") ;
+    background-size: 100% 100%;
+  font-size: 40px;
+background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+ul {
+   border: 1px solid #e7e7e7;
+    background-color: #faceff;
+ font-size: 30px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #707070;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: #faceff;
+
+}
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+	font-size: 20px;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+img{
+  display: left;
+    margin: auto;
+    width: 15%;
+} 
+p{
+	 font-family: "Lucida Calligraphy", Times, serif;
+ font-size: 30px;
+ text-align: center;
+ color: #000000;
+    background-color: lightgrey;
+    width: 1050px;
+    padding: 50px;
+    margin: 45px;
+	  
+}
+h1{
+text-align:center;
+font-size: 50px;}
+
+h2{
+	text-align: center;text-shadow: 2px 2px #ffffff;
+	font-family: "Gabriola", Times, serif;
+}
+p img {
+  display: center;
+    margin: center;
+    width: 40%;
+
+}
+a:link {
+    color: black; 
+    background-color: transparent; 
+    text-decoration: none;
+}
+
+a:visited {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+
+}
+div{
+	font-family: "Lucida Calligraphy", Times, serif;
+}
